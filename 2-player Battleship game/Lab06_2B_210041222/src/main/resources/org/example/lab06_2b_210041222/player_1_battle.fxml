@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane onDragDetected="#switchToP2BattleScene_" prefHeight="435.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.lab06_2b_210041222.player_2_set_controller">
+   <children>
+      <Label layoutX="199.0" layoutY="2.0" text="Player 1 Turn">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Button layoutX="525.0" layoutY="400.0" mnemonicParsing="false" onAction="#switchToP2BattleScene_" text="Done" />
+      <Button fx:id="player_2_button_11" layoutX="128.0" layoutY="61.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_12" layoutX="166.0" layoutY="61.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_13" layoutX="204.0" layoutY="61.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_14" layoutX="242.0" layoutY="61.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_15" layoutX="280.0" layoutY="61.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_16" layoutX="318.0" layoutY="61.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_17" layoutX="356.0" layoutY="61.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_18" layoutX="394.0" layoutY="61.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_19" layoutX="432.0" layoutY="61.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_21" layoutX="128.0" layoutY="99.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_22" layoutX="166.0" layoutY="99.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_23" layoutX="204.0" layoutY="99.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_24" layoutX="242.0" layoutY="99.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_25" layoutX="280.0" layoutY="99.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_26" layoutX="318.0" layoutY="99.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_27" layoutX="356.0" layoutY="99.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_28" layoutX="394.0" layoutY="99.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_29" layoutX="432.0" layoutY="99.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_31" layoutX="128.0" layoutY="137.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_32" layoutX="166.0" layoutY="137.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_33" layoutX="204.0" layoutY="137.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_34" layoutX="242.0" layoutY="137.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_35" layoutX="280.0" layoutY="137.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_36" layoutX="318.0" layoutY="137.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_37" layoutX="356.0" layoutY="137.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_38" layoutX="394.0" layoutY="137.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_39" layoutX="432.0" layoutY="137.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_41" layoutX="128.0" layoutY="175.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_42" layoutX="166.0" layoutY="175.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_43" layoutX="204.0" layoutY="175.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_44" layoutX="242.0" layoutY="175.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_45" layoutX="280.0" layoutY="175.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_46" layoutX="318.0" layoutY="175.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_47" layoutX="356.0" layoutY="175.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_48" layoutX="394.0" layoutY="175.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_49" layoutX="432.0" layoutY="175.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_51" layoutX="128.0" layoutY="213.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_52" layoutX="166.0" layoutY="213.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_53" layoutX="204.0" layoutY="213.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_54" layoutX="242.0" layoutY="213.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_55" layoutX="280.0" layoutY="213.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_56" layoutX="318.0" layoutY="213.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_57" layoutX="356.0" layoutY="213.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_58" layoutX="394.0" layoutY="213.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_59" layoutX="432.0" layoutY="213.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_61" layoutX="128.0" layoutY="251.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_62" layoutX="166.0" layoutY="251.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_63" layoutX="204.0" layoutY="251.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_64" layoutX="242.0" layoutY="251.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_65" layoutX="280.0" layoutY="251.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_66" layoutX="318.0" layoutY="251.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_67" layoutX="356.0" layoutY="251.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_68" layoutX="394.0" layoutY="251.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_69" layoutX="432.0" layoutY="251.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_71" layoutX="128.0" layoutY="289.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_72" layoutX="166.0" layoutY="289.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_73" layoutX="204.0" layoutY="289.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_74" layoutX="242.0" layoutY="289.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_75" layoutX="280.0" layoutY="289.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_76" layoutX="318.0" layoutY="289.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_77" layoutX="356.0" layoutY="289.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_78" layoutX="394.0" layoutY="289.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_79" layoutX="432.0" layoutY="289.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_81" layoutX="128.0" layoutY="327.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_82" layoutX="166.0" layoutY="327.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_83" layoutX="204.0" layoutY="327.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_84" layoutX="242.0" layoutY="327.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_85" layoutX="280.0" layoutY="327.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_86" layoutX="318.0" layoutY="327.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_87" layoutX="356.0" layoutY="327.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_88" layoutX="394.0" layoutY="327.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_89" layoutX="432.0" layoutY="327.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_91" layoutX="128.0" layoutY="365.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_92" layoutX="166.0" layoutY="365.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_93" layoutX="204.0" layoutY="365.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_94" layoutX="242.0" layoutY="365.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_95" layoutX="280.0" layoutY="365.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_96" layoutX="318.0" layoutY="365.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_97" layoutX="356.0" layoutY="365.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_98" layoutX="394.0" layoutY="365.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="player_2_button_99" layoutX="432.0" layoutY="365.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
