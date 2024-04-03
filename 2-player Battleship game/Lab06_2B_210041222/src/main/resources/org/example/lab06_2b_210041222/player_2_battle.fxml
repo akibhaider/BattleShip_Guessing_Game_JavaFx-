@@ -5,14 +5,14 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="435.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.lab06_2b_210041222.HelloController">
+<AnchorPane prefHeight="463.0" prefWidth="600.0" style="-fx-background-color: #FF4500;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.lab06_2b_210041222.HelloController">
    <children>
-      <Label layoutX="197.0" layoutY="2.0" text="Player 2 Turn">
+      <Label layoutX="197.0" layoutY="2.0" text="Player 2 Turn" textFill="HONEYDEW">
          <font>
             <Font size="35.0" />
          </font>
       </Label>
-      <Button layoutX="525.0" layoutY="400.0" mnemonicParsing="false" onAction="#switchToP1BattleScene_" text="Done" />
+      <Button layoutX="525.0" layoutY="420.0" mnemonicParsing="false" onAction="#switchToP1BattleScene_" text="Next" />
       <Button fx:id="player_1_button_11" layoutX="128.0" layoutY="61.0" mnemonicParsing="false" onAction="#p2_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
          <font>
             <Font size="16.0" />
@@ -418,5 +418,10 @@
             <Font size="16.0" />
          </font>
       </Button>
+      <Label fx:id="res_p1" layoutX="249.0" layoutY="417.0" prefHeight="27.0" prefWidth="142.0" textAlignment="CENTER" textFill="HONEYDEW">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>

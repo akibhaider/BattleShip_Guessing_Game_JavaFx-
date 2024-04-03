@@ -5,9 +5,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="435.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.lab06_2b_210041222.player_2_set_controller">
+<AnchorPane prefHeight="435.0" prefWidth="600.0" style="-fx-background-color: #1E90FF;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.lab06_2b_210041222.player_2_set_controller">
    <children>
-      <Label layoutX="127.0" layoutY="2.0" text="Player 2 set battleship">
+      <Label layoutX="127.0" layoutY="2.0" text="Player 2 set battleship" textFill="GHOSTWHITE">
          <font>
             <Font size="35.0" />
          </font>
@@ -421,19 +421,19 @@
       <Button layoutX="498.0" layoutY="115.0" mnemonicParsing="false" onAction="#p_2_battleship_clicked" text="BattleShip 🛳 " />
       <Button layoutX="497.0" layoutY="206.0" mnemonicParsing="false" onAction="#p_2_submarine_clicked" text="Submarine  🚤" />
       <Button layoutX="502.0" layoutY="161.0" mnemonicParsing="false" onAction="#p_2_destroyer_clicked" text="Destroyer ⛵" />
-      <Label fx:id="allign_stat_2" layoutX="9.0" layoutY="184.0" text="Select Allignment">
-         <font>
-            <Font size="14.0" />
-         </font>
-      </Label>
-      <Button layoutX="509.0" layoutY="290.0" mnemonicParsing="false" onAction="#p_2_horizontal_clicked" text="Horizontal" />
-      <Button layoutX="516.0" layoutY="325.0" mnemonicParsing="false" onAction="#p_2_vertical_clicked" text="Vertical" />
-      <Label layoutX="501.0" layoutY="254.0" text="Allignment">
+      <Label fx:id="allign_stat_2" layoutX="19.0" layoutY="184.0" text="Allignment" textFill="GHOSTWHITE">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <Label layoutX="521.0" layoutY="67.0" text="Type">
+      <Button layoutX="509.0" layoutY="290.0" mnemonicParsing="false" onAction="#p_2_horizontal_clicked" text="Horizontal" />
+      <Button layoutX="516.0" layoutY="325.0" mnemonicParsing="false" onAction="#p_2_vertical_clicked" text="Vertical" />
+      <Label layoutX="501.0" layoutY="254.0" text="Allignment" textFill="GHOSTWHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="521.0" layoutY="67.0" text="Type" textFill="GHOSTWHITE">
          <font>
             <Font size="18.0" />
          </font>

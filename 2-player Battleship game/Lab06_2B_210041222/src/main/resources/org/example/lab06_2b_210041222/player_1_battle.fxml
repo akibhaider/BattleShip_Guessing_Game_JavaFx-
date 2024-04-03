@@ -5,14 +5,14 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane onDragDetected="#switchToP2BattleScene_" prefHeight="435.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.lab06_2b_210041222.player_2_set_controller">
+<AnchorPane onDragDetected="#switchToP2BattleScene_" prefHeight="472.0" prefWidth="600.0" style="-fx-background-color: #CD5C5C;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.lab06_2b_210041222.player_2_set_controller">
    <children>
-      <Label layoutX="199.0" layoutY="2.0" text="Player 1 Turn">
+      <Label layoutX="199.0" layoutY="2.0" text="Player 1 Turn" textFill="HONEYDEW">
          <font>
             <Font size="35.0" />
          </font>
       </Label>
-      <Button layoutX="525.0" layoutY="400.0" mnemonicParsing="false" onAction="#switchToP2BattleScene_" text="Done" />
+      <Button layoutX="535.0" layoutY="426.0" mnemonicParsing="false" onAction="#switchToP2BattleScene_" text="Done" />
       <Button fx:id="player_2_button_11" layoutX="128.0" layoutY="61.0" mnemonicParsing="false" onAction="#p1_battle_grid_clicked" prefHeight="38.0" prefWidth="38.0">
          <font>
             <Font size="16.0" />
@@ -418,5 +418,10 @@
             <Font size="16.0" />
          </font>
       </Button>
+      <Label fx:id="res_p2" layoutX="247.0" layoutY="423.0" prefHeight="18.0" prefWidth="145.0" textAlignment="CENTER" textFill="HONEYDEW">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>

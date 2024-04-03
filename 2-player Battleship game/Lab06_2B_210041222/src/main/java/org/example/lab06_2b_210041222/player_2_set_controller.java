@@ -11,7 +11,7 @@ import javafx.scene.control.Label;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Objects;
@@ -20,6 +20,9 @@ public class player_2_set_controller {
     private Stage stage;
     public String tmp;
     public ArrayList<String> p2_ls=new ArrayList<String>();
+    public Label res_p2;
+    public int cnt_p2=10;
+    public int atmp_p2=0;
     private Scene scene;
     public Label allign_stat_2;
     @FXML
@@ -39,9 +42,30 @@ public class player_2_set_controller {
     public Button player_2_button_81; public Button player_2_button_82; public Button player_2_button_83; public Button player_2_button_84; public Button player_2_button_85; public Button player_2_button_86; public Button player_2_button_87; public Button player_2_button_88; public Button player_2_button_89;
     public Button player_2_button_91; public Button player_2_button_92; public Button player_2_button_93; public Button player_2_button_94; public Button player_2_button_95; public Button player_2_button_96; public Button player_2_button_97; public Button player_2_button_98; public Button player_2_button_99;
 
-    public ArrayList<Button> p2_btn_ls;
-    public VBox vBox_2_h = new VBox();
-    public VBox vBox_2_m = new VBox();
+    public boolean readFromFile(String filename, String tmp) {
+        try (BufferedReader reader = new BufferedReader(new FileReader(filename))) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                if(Objects.equals(tmp, line)){
+                    System.out.println(line);
+                    cnt_p2-=1;
+                    return true;
+                }
+            }
+            return false;
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return false;
+    }
+    public static void appendToFile(String content, String filename) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(filename, true))) {
+            writer.write(content);
+            writer.newLine();  // Add a new line after each appended content
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
     public void switchToStartBattle(ActionEvent e) throws IOException{
         try {
             Parent root = FXMLLoader.load(getClass().getResource("player_2_battle.fxml"));
@@ -85,13 +109,13 @@ public class player_2_set_controller {
             if(Objects.equals(id, tmp)){
                 p2_cnt_destroyer+=1;
                 btn.setStyle("-fx-background-color: deeppink");
-                p2_ls.add(id);
+                appendToFile(id, "player_2_info.txt");
             }
         } else if (p2_cnt_battleship % 3 !=0 && p2_cnt_battleship<3) {
             if(Objects.equals(id, tmp)){
                 p2_cnt_battleship+=1;
                 btn.setStyle("-fx-background-color: deeppink");
-                p2_ls.add(id);
+                appendToFile(id, "player_2_info.txt");
                 if(p2_allign==1) {
                     char c = id.charAt(id.length() - 1);
                     c = (char) (c + 1);
@@ -115,11 +139,11 @@ public class player_2_set_controller {
             }
         } else if(p2_type==1 && p2_allign<3 && p2_cnt_submarine<3){
             btn.setStyle("-fx-background-color: deeppink");
-            p2_ls.add(id);
+            appendToFile(id, "player_2_info.txt");
             p2_cnt_submarine+=1;
         }else if(p2_type==2 && p2_allign==1 && p2_cnt_destroyer<4){
             btn.setStyle("-fx-background-color: deeppink");
-            p2_ls.add(id);
+            appendToFile(id, "player_2_info.txt");
             System.out.println(p2_cnt_destroyer);
             char c=id.charAt(id.length()-1);
             c = (char) (c + 1);
@@ -131,7 +155,7 @@ public class player_2_set_controller {
             p2_cnt_destroyer+=1;
         }else if(p2_type==2 && p2_allign==2  && p2_cnt_destroyer<4){
             btn.setStyle("-fx-background-color: deeppink");
-            p2_ls.add(id);
+            appendToFile(id, "player_2_info.txt");
             System.out.println(p2_cnt_destroyer);
             char c=id.charAt(id.length()-1);
             char c1=id.charAt(id.length()-2);
@@ -146,7 +170,7 @@ public class player_2_set_controller {
             p2_cnt_destroyer+=1;
         }else if(p2_type==3 && p2_allign==1 && p2_cnt_battleship<3){
             btn.setStyle("-fx-background-color: deeppink");
-            p2_ls.add(id);
+            appendToFile(id, "player_2_info.txt");
             char c=id.charAt(id.length()-1);
             c = (char) (c + 1);
             StringBuffer sb= new StringBuffer(id);
@@ -157,7 +181,7 @@ public class player_2_set_controller {
             p2_cnt_battleship+=1;
         }else if(p2_type==3 && p2_allign==2 && p2_cnt_battleship<3){
             btn.setStyle("-fx-background-color: deeppink");
-            p2_ls.add(id);
+            appendToFile(id, "player_2_info.txt");
             char c=id.charAt(id.length()-1);
             char c1=id.charAt(id.length()-2);
             c1 = (char) (c1 + 1);
@@ -173,7 +197,7 @@ public class player_2_set_controller {
     }
     public void switchToP2BattleScene_(ActionEvent e) throws IOException{
         try {
-            Parent root = FXMLLoader.load(getClass().getResource("player_2_battle.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("Result.fxml"));
             stage = (Stage)((Node)e.getSource()).getScene().getWindow();
             scene = new Scene(root);
             stage.setScene(scene);
@@ -183,6 +207,18 @@ public class player_2_set_controller {
         }
     }
     public void p1_battle_grid_clicked (ActionEvent event){
-
+        Button btn = (Button) event.getSource();
+        String tmp=btn.getId();
+        if(readFromFile("player_2_info.txt", tmp)){
+            btn.setStyle("-fx-background-color: navy");
+        }else {
+            btn.setStyle("-fx-background-color: seagreen");
+        }
+        atmp_p2+=1;
+        res_p2.setText(cnt_p2 + "ships left");
+        if(cnt_p2==0){
+            res_p2.setText("Completed!");
+            appendToFile(String.valueOf(atmp_p2), "player_2_battle.txt");
+        }
     }
 }
