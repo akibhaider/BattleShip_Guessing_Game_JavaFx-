@@ -43,14 +43,7 @@ To get started, follow these steps:
    - The game continues until one player destroys all the opponent's pieces.
 
 ## Screenshot
-![Game Screenshot](Battleship_Destroyer_(2_player_strategic_game)/src/main/resources/Home_Window.png)
-*Main Menu*
 
-![Game Screenshot](Battleship_Destroyer_(2_player_strategic_game)/src/main/resources/player_blue_planning.png)
-*Ship planning-i*
+![Game Screenshot](Battleship_Destroyer_(2_player_strategic_game)/src/main/resources/collage.png)
+*Game Screenshots*
 
-![Game Screenshot](Battleship_Destroyer_(2_player_strategic_game)/src/main/resources/player_red_planning.png)
-*Ship planning-ii*
-
-![Game Screenshot](Battleship_Destroyer_(2_player_strategic_game)/src/main/resources/rumble.png)
-*Rumble on!*
