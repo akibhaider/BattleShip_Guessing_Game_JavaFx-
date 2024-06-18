@@ -50,6 +50,9 @@ To get started, follow these steps:
     <br/>
     <em>Main Menu</em>
   </div>
+</p>
+
+<p align="center">
   <div style="text-align: center;">
     <img src="Battleship_Destroyer_(2_player_strategic_game)/src/main/resources/player_blue_planning.png" alt="Ship planning-i" width="300"/>
     <br/>
@@ -63,10 +66,14 @@ To get started, follow these steps:
     <br/>
     <em>Ship planning-ii</em>
   </div>
+</p>
+
+<p align="center">
   <div style="text-align: center;">
     <img src="Battleship_Destroyer_(2_player_strategic_game)/src/main/resources/rumble.png" alt="Rumble on!" width="300"/>
     <br/>
     <em>Rumble on!</em>
   </div>
 </p>
+
 
