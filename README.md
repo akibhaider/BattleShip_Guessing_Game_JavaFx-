@@ -45,22 +45,22 @@ To get started, follow these steps:
 ## Screenshot
 
 <p align="center">
-  <img src="Battleship_Destroyer_(2_player_strategic_game)/src/main/resources/Home_Window.png" alt="Main Menu" width="300"/>
+  <img src="Battleship_Destroyer_(2_player_strategic_game)/src/main/resources/Home_Window.png" alt="Main Menu" width="337"/>
    <br/>
   <em>Main Menu</em>
    <br/>
-  <img src="Battleship_Destroyer_(2_player_strategic_game)/src/main/resources/player_blue_planning.png" alt="Ship planning-i" width="300"/>
+  <img src="Battleship_Destroyer_(2_player_strategic_game)/src/main/resources/player_blue_planning.png" alt="Ship planning-i" width="337"/>
    <br/>
   <em>Ship planning-i</em>
    <br/>
 </p>
 
 <p align="center">
-  <img src="Battleship_Destroyer_(2_player_strategic_game)/src/main/resources/player_red_planning.png" alt="Ship planning-ii" width="300"/>
+  <img src="Battleship_Destroyer_(2_player_strategic_game)/src/main/resources/player_red_planning.png" alt="Ship planning-ii" width="337"/>
    <br/>
   <em>Ship planning-ii</em>
    <br/>
-  <img src="Battleship_Destroyer_(2_player_strategic_game)/src/main/resources/rumble.png" alt="Rumble on!" width="300"/>
+  <img src="Battleship_Destroyer_(2_player_strategic_game)/src/main/resources/rumble.png" alt="Rumble on!" width="337"/>
    <br/>
   <em>Rumble on!</em>
    <br/>
