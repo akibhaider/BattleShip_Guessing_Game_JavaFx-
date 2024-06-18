@@ -16,6 +16,18 @@ Welcome to the Battleship Guessing Game! This application is developed using Jav
 - **Destroyers**: Each occupies 2 grid squares.
 - **Submarines**: Each occupies 1 grid square.
 
+## Installation
+
+To get started, follow these steps:
+
+1. **Clone the Repository**:
+   ```bash
+   https://github.com/aaakloo-waiting/BattleShip_Guessing_Game_JavaFx-.git
+2. **Install JavaFx**
+   You may use any IDE(IntelliJ IDEA or Eclipse) to setup Java environment(Download all required external libraries for Javafx). Add your database executable file as external library of project. (May use MySQL database for easy access)
+3. **Setup JDK**
+   From the "Project Structure", make sure to add oracle openJDK(version 21 or higher preferable) .jar file as dependency and load the gui project. Compile and Run it at the backend of your othe programs and enjoy your productive session!
+
 ## How to Play
 
 1. **Setup Phase**:
@@ -30,14 +42,12 @@ Welcome to the Battleship Guessing Game! This application is developed using Jav
 3. **Winning the Game**:
    - The game continues until one player destroys all the opponent's pieces.
 
-## Installation
-
-To get started, follow these steps:
-
-1. **Clone the Repository**:
-   ```bash
-   https://github.com/aaakloo-waiting/BattleShip_Guessing_Game_JavaFx-.git
-2. **Install JavaFx**
-   You may use any IDE(IntelliJ IDEA or Eclipse) to setup Java environment(Download all required external libraries for Javafx). Add your database executable file as external library of project. (May use MySQL database for easy access)
-3. **Setup JDK**
-   From the "Project Structure", make sure to add oracle openJDK(version 21 or higher preferable) .jar file as dependency and load the gui project. Compile and Run it at the backend of your othe programs and enjoy your productive session!
+## Screenshot
+![Game Screenshot](Battleship Destroyer (2 player strategic game)/src/main/resources/Home Window.png)
+*Main Menu*
+![Game Screenshot](Battleship Destroyer (2 player strategic game)/src/main/resources/player_blue_planning.png)
+*Ship planning-i*
+![Game Screenshot](Battleship Destroyer (2 player strategic game)/src/main/resources/player_red_planning.png)
+*Ship planning-ii*
+![Game Screenshot](Battleship Destroyer (2 player strategic game)/src/main/resources/rumble.png)
+*Rumble on!*
