@@ -45,9 +45,12 @@ To get started, follow these steps:
 ## Screenshot
 ![Game Screenshot](Battleship Destroyer (2 player strategic game)/src/main/resources/Home Window.png)
 *Main Menu*
+
 ![Game Screenshot](Battleship Destroyer (2 player strategic game)/src/main/resources/player_blue_planning.png)
 *Ship planning-i*
+
 ![Game Screenshot](Battleship Destroyer (2 player strategic game)/src/main/resources/player_red_planning.png)
 *Ship planning-ii*
+
 ![Game Screenshot](Battleship Destroyer (2 player strategic game)/src/main/resources/rumble.png)
 *Rumble on!*
