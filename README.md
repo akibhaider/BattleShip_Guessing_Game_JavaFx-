@@ -49,12 +49,12 @@ To get started, follow these steps:
   <em>Main Menu</em>
    
   <img src="Battleship_Destroyer_(2_player_strategic_game)/src/main/resources/player_blue_planning.png" alt="Ship planning-i" width="300"/>
-  <em>Ship planning-i</em>
+  <em>Planning-i</em>
 </p>
 
 <p align="center">
   <img src="Battleship_Destroyer_(2_player_strategic_game)/src/main/resources/player_red_planning.png" alt="Ship planning-ii" width="300"/>
-  <em>Ship planning-ii</em>
+  <em>Planning-ii</em>
 
   <img src="Battleship_Destroyer_(2_player_strategic_game)/src/main/resources/rumble.png" alt="Rumble on!" width="300"/>
   <em>Rumble on!</em>
