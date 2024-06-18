@@ -36,7 +36,7 @@ To get started, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-  https://github.com/aaakloo-waiting/BattleShip_Guessing_Game_JavaFx-.git
+   https://github.com/aaakloo-waiting/BattleShip_Guessing_Game_JavaFx-.git
 2. **Install JavaFx**
    You may use any IDE(IntelliJ IDEA or Eclipse) to setup Java environment(Download all required external libraries for Javafx). Add your database executable file as external library of project. (May use MySQL database for easy access)
 3. **Setup JDK**
