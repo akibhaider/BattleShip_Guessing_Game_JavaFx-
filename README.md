@@ -45,35 +45,22 @@ To get started, follow these steps:
 ## Screenshot
 
 <p align="center">
-  <div style="text-align: center;">
-    <img src="Battleship_Destroyer_(2_player_strategic_game)/src/main/resources/Home_Window.png" alt="Main Menu" width="300"/>
-    <br/>
-    <em>Main Menu</em>
-  </div>
+  <img src="Battleship_Destroyer_(2_player_strategic_game)/src/main/resources/Home_Window.png" alt="Main Menu" width="300"/>
+   <br/>
+  <em>Main Menu</em>
+  <img src="Battleship_Destroyer_(2_player_strategic_game)/src/main/resources/player_blue_planning.png" alt="Ship planning-i" width="300"/>
+   <br/>
+  <em>Ship planning-i</em>
 </p>
 
 <p align="center">
-  <div style="text-align: center;">
-    <img src="Battleship_Destroyer_(2_player_strategic_game)/src/main/resources/player_blue_planning.png" alt="Ship planning-i" width="300"/>
-    <br/>
-    <em>Ship planning-i</em>
-  </div>
+  <img src="Battleship_Destroyer_(2_player_strategic_game)/src/main/resources/player_red_planning.png" alt="Ship planning-ii" width="300"/>
+   <br/>
+  <em>Ship planning-ii</em>
+  <img src="Battleship_Destroyer_(2_player_strategic_game)/src/main/resources/rumble.png" alt="Rumble on!" width="300"/>
+   <br/>
+  <em>Rumble on!</em>
 </p>
 
-<p align="center">
-  <div style="text-align: center;">
-    <img src="Battleship_Destroyer_(2_player_strategic_game)/src/main/resources/player_red_planning.png" alt="Ship planning-ii" width="300"/>
-    <br/>
-    <em>Ship planning-ii</em>
-  </div>
-</p>
-
-<p align="center">
-  <div style="text-align: center;">
-    <img src="Battleship_Destroyer_(2_player_strategic_game)/src/main/resources/rumble.png" alt="Rumble on!" width="300"/>
-    <br/>
-    <em>Rumble on!</em>
-  </div>
-</p>
 
 
