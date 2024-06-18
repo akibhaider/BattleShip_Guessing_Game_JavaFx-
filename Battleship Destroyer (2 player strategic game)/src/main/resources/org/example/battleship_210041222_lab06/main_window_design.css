@@ -1,0 +1,102 @@
+#instruct_p1 {
+  -fx-font-family: Verdana;
+  -fx-font-size: 30px;
+  -fx-stroke: black;
+  -fx-stroke-width: 2;
+  -fx-text-fill: rgb(26, 38, 54);
+  -fx-font-weight: bold;
+}
+#anchor {
+  -fx-background-color: rgb(140, 173, 221);
+}
+.capsule {
+  -fx-font-family: Verdana;
+  -fx-font-size: 20px;
+  -fx-stroke: black;
+  -fx-stroke-width: 2;
+  -fx-text-fill: rgb(255, 255, 255);
+  -fx-background-color: rgb(36, 52, 75);
+  -fx-background-radius: 30;
+}
+
+.button {
+  -fx-font-family: Verdana;
+  -fx-font-size: 20px;
+  -fx-stroke: black;
+  -fx-stroke-width: 2;
+  -fx-text-fill: rgb(255, 255, 255);
+  -fx-background-color: rgb(179, 197, 224);
+  -fx-background-radius: 5;
+}
+
+.button:hover {
+  -fx-font-family: Verdana;
+  -fx-font-size: 20px;
+  -fx-stroke: black;
+  -fx-stroke-width: 2;
+  -fx-text-fill: rgb(255, 255, 255);
+  -fx-background-color: rgb(56, 13, 177);
+  -fx-background-radius: 5;
+}
+
+.start:hover {
+  -fx-font-family: Verdana;
+  -fx-font-size: 20px;
+  -fx-stroke: black;
+  -fx-stroke-width: 2;
+  -fx-text-fill: rgb(255, 255, 255);
+  -fx-background-color: rgb(56, 13, 177);
+  -fx-background-radius: 5;
+}
+.start {
+  -fx-font-family: Verdana;
+  -fx-font-size: 20px;
+  -fx-stroke: black;
+  -fx-stroke-width: 2;
+  -fx-text-fill: rgb(255, 255, 255);
+  -fx-background-color: rgb(33, 46, 66);
+  -fx-background-radius: 5;
+}
+
+.begin {
+  -fx-font-family: Verdana;
+  -fx-font-size: 30px;
+  -fx-stroke: black;
+  -fx-stroke-width: 2;
+  -fx-text-fill: rgb(255, 255, 255);
+  -fx-background-color: rgb(49, 69, 99);
+  -fx-background-radius: 5;
+}
+.begin:hover {
+  -fx-font-family: Verdana;
+  -fx-font-size: 30px;
+  -fx-stroke: black;
+  -fx-stroke-width: 2;
+  -fx-text-fill: rgb(33, 47, 68);
+  -fx-background-color: rgb(111, 156, 223);
+  -fx-background-radius: 5;
+}
+
+#gameOver {
+  -fx-font-family: Emulogic Font;
+  -fx-font-size: 100px;
+  -fx-stroke: black;
+  -fx-stroke-width: 20px;
+  -fx-text-fill: rgb(140, 173, 221);
+  -fx-font-weight: bold;
+}
+
+#end {
+  -fx-background-color: rgb(26, 38, 54);
+}
+
+#win {
+  -fx-font-family: Arial;
+  -fx-font-weight: bold;
+  -fx-font-size: 40px;
+  -fx-stroke: black;
+  -fx-stroke-width: 2;
+  -fx-text-fill: rgb(255, 255, 255);
+  -fx-background-color: rgb(36, 52, 75);
+  -fx-background-radius: 30;
+}

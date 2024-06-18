@@ -1,0 +1,27 @@
+.turn {
+  -fx-font-family: Verdana;
+  -fx-font-size: 30px;
+  -fx-stroke: black;
+  -fx-stroke-width: 2;
+  -fx-text-fill: rgb(26, 38, 54);
+  -fx-font-weight: bold;
+}
+
+.start:hover {
+  -fx-font-family: Verdana;
+  -fx-font-size: 20px;
+  -fx-stroke: black;
+  -fx-stroke-width: 2;
+  -fx-text-fill: rgb(255, 255, 255);
+  -fx-background-color: rgb(56, 13, 177);
+  -fx-background-radius: 5;
+}
+.start {
+  -fx-font-family: Verdana;
+  -fx-font-size: 20px;
+  -fx-stroke: black;
+  -fx-stroke-width: 2;
+  -fx-text-fill: rgb(255, 255, 255);
+  -fx-background-color: rgb(33, 46, 66);
+  -fx-background-radius: 5;
+}
