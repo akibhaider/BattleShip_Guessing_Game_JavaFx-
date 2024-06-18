@@ -44,6 +44,16 @@ To get started, follow these steps:
 
 ## Screenshot
 
-![Game Screenshot](Battleship_Destroyer_(2_player_strategic_game)/src/main/resources/collage.png)
-*Game Screenshots*
+![Main Menu](Battleship_Destroyer_(2_player_strategic_game)/src/main/resources/Home_Window.png | width=300)
+*Main Menu*
+
+![Ship planning-i](Battleship_Destroyer_(2_player_strategic_game)/src/main/resources/player_blue_planning.png | width=300)
+*Ship planning-i*
+
+![Ship planning-ii](Battleship_Destroyer_(2_player_strategic_game)/src/main/resources/player_red_planning.png | width=300)
+*Ship planning-ii*
+
+![Rumble on!](Battleship_Destroyer_(2_player_strategic_game)/src/main/resources/rumble.png | width=300)
+*Rumble on!*
+
 
