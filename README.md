@@ -1,4 +1,5 @@
-# Battleship Guessing Game
+# BattleShip_Guessing_Game
+![Contributors](https://img.shields.io/github/contributors/akibhaider/BattleShip_Guessing_Game_JavaFx-?color=darkgreen) ![Forks](https://img.shields.io/github/forks/akibhaider/BattleShip_Guessing_Game_JavaFx-?style=social) ![Stargazers](https://img.shields.io/github/stars/akibhaider/BattleShip_Guessing_Game_JavaFx-?style=social) ![Issues](https://img.shields.io/github/issues/akibhaider/BattleShip_Guessing_Game_JavaFx-?color=brown) 
 
 Welcome to the Battleship Guessing Game! This application is developed using JavaFX and SceneBuilder, offering a two-player experience of the classic Battleship game. Strategically place your pieces and outmaneuver your opponent to win.
 
